@@ -9,7 +9,6 @@
 }
 
 html {
-    height: 100vh;
     font-size: 14px;
 }
 
@@ -76,7 +75,7 @@ section.btn-links {
 
 a.link button {
     width: 100%;
-    padding: 5px 20px;
+    padding: 0.5rem 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -110,15 +109,20 @@ footer a.btn-footer {
     font-size: 2em;
     line-height: 60px;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 0 1rem;
     transition: .2s;
 }
 
 .footer_dev {
-    background-color: #9b9793;
-    margin-top: 1rem;
-    margin-bottom: 0;
     width: 100%;
+    text-align: center;
+    padding: 0.5px 0;
+    margin: 1rem;
+    background: #262626;
+    font-weight: 300;
+    position: relative;
+    bottom: 0;
+
 }
 
 .footer_dev a {
